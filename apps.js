@@ -49,7 +49,7 @@ window.UNISIS_APPS = [
     icon: 'spark',  accent: '#7FD4F0', url: 'https://bookends-cleaning.vercel.app/' },
   { id: 'compliance', name: 'Compliance', tag: 'Food safety & upkeep',
     desc: 'Compliance Tracking System — shows where each unit stands on food safety and maintenance, where it has to be, and what to fix first.',
-    icon: 'shield', accent: '#7CE38B', url: 'https://bookends-compliance-murex.vercel.app/' },
+    icon: 'shield', accent: '#7CE38B', url: 'https://compliance.bookends.co.in/' },
   { id: 'cookbook',   name: 'Cookbook',   tag: 'Brand book',
     desc: 'Brand Cookbook — how Bookends and its four houses, Capiche, Aiko, Beshak and Ghaslet, look, sound and tell their story.',
     icon: 'book',   accent: '#F2A9C8', url: 'https://cookbook-five-lemon.vercel.app/' },
