@@ -7,7 +7,7 @@
  *   name    the app's name
  *   tag     two or three words on what it is, shown above the description
  *   desc    the system line: what the app runs, in one sentence
- *   icon    cube | lens | rotate | tally | lock | send | cat | chart | badge | spark | shield | book | grid
+ *   icon    cube | lens | rotate | tally | lock | send | cat | chart | badge | spark | shield | book | crown | grid
  *   accent  logo colour (hex); keep it bright, the logos sit on a near-black background
  *   url     where OPEN goes. Either a full address, or a template where {host}
  *           is replaced by the machine the dashboard was opened from — so
@@ -17,6 +17,9 @@
  *           "Not connected" and cannot be opened.
  */
 window.UNISIS_APPS = [
+  { id: 'directors',  name: 'Directors',  tag: 'Directors’ desk',
+    desc: 'Directors Console — the Bookends directors’ view across the group, its houses and its units.',
+    icon: 'crown',  accent: '#4F7BFF', url: 'https://directors.bookends.co.in/' },
   { id: 'kostkraft',  name: 'Kostkraft',  tag: 'Cost & food control',
     desc: 'Cost Intelligence System — monitors food costs, ingredient pricing, consumption and operational profitability.',
     icon: 'cube',  accent: '#E0B020', url: 'https://kostkraft.bookends.co.in/' },
